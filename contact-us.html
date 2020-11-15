@@ -1,446 +1,103 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-
-<!-- Mirrored from www.shalimarcorp.com/contact-us.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Nov 2020 08:42:21 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Contact Us | Luxury Flats in Lucknow - Shalimar</title>
+  <title>Contact Us | Rudra Real Estate</title>
 
-<meta name="description" content="Communication is the best way to connect and we always there to listen from you continously, as customer satisfaction is our first priority.
-Contact us and help us to resolve your issues related to Shalimar or any queries related to real estate like 'luxary flats in lucknow'."/>
+  <meta name="description" content="Communication is the best way to connect and we always there to listen from you continously, as customer satisfaction is our first priority.
+Contact us and help us to resolve your issues" />
 
-<link rel="stylesheet" type="text/css" href="style/main.css"/>
+  <link rel="stylesheet" type="text/css" href="style/main.css" />
 
-<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 
+  <style>
+    .form-error {
+      display: none;
+    }
+  </style>
 
-
-<script type="text/javascript" src="script/jquery-1.9.1.js"></script>
-
-<script src="../ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-
-<script type="text/javascript" src="script/main.js"></script>
-<script src="../cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-36181783-9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-36181783-9');
-</script>
-
-<script language="javascript" type="text/javascript">
-
-function changerequire()
-{
-
-	if(document.getElementById("requirement").value=='INVESTMENT')
-	{
-
-		document.getElementById("investmentspace").style.display='block';
-		document.getElementById("commercialspace").style.display='none';
-	}
-	else if(document.getElementById("requirement").value=='COMMERCIAL')
-	{
-		document.getElementById("commercialspace").style.display='block';
-		document.getElementById("investmentspace").style.display='none';
-	}
-
-}
-
-</script>
-<style>
-.form-error {
-  display: none;
-}
-</style>
-<script >
-
-var CAPTCHA=null;
-function randomString()
-{
-var chars = "0123456789";
-var string_length =6;
-var randomstring = '';
-for (var i=0; i<string_length; i++) {
-var rnum = Math.floor(Math.random() * chars.length);
-randomstring += chars.substring(rnum,rnum+1);
-}
-CAPTCHA = randomstring;
-}
-function getCaptcha(name)
-{
-
-randomString();
-document.write('<input type="hidden" value="'+CAPTCHA+'" class="form-control" name="'+name+'_hidden" id="'+name+'_hidden1" />');
-document.write('<br/><img src="captcha.php?value='+CAPTCHA+'" style="width:100px;"  >' );
-document.write('<br/><input type="text"  style="width:190px;" name="'+name+'_text" placeholder="Enter Captcha Code" required data-parsley-equalto="#'+name+'_hidden1" />');
-}
-
-</script>
-<!-- Global site tag (gtag.js) - Google Ads: 757737193 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-757737193"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'AW-757737193');
-</script>
 </head>
 
 <body>
 
+  <div id="footer">
 
+    <div class="left" style="Width:60%">
 
+      &copy; 2021 &nbsp; &nbsp; &nbsp; &nbsp;
 
-
-<!-- FOOTER -->
-
-<!-- FOOTER -->
-
-<div id="footer">
-
-	<!--<div class="left" style="Width:30%">
-
-    	<a href="#">Partner with Us</a>  <!--<span>|</span>  
-
-        <a href="careers.php">Careers</a>
-
-    </div>-->
-
-	<div class="left" style="Width:60%">
-
-    	<!--<a href="disclaimer.php">Disclaimer</a>  <span>|</span>  
-
-        <a href="privacy-policy.php">Privacy Policy</a> -->     
-
-        &copy; 2018 &nbsp; &nbsp; &nbsp; &nbsp;
-
-        <a href="https://www.facebook.com/shalimarcorpltd" target="_blank"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/shalimarcorpltd" target="_blank"><i class="fa fa-twitter"></i></a><a href="https://www.instagram.com/shalimar_corp/" target="_blank"><i class="fa fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/company/shalimarcorp-ltd/" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="#" target="_blank"><i class="fa fa-facebook"></i></a><a href="#" target="_blank"><i
+          class="fa fa-twitter"></i></a><a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
 
     </div>
 
-</div>
+  </div>
 
-<!-- FOOTER CLOSE -->
-
-
-
-
-
-<script>
-
-$(document).ready(function(){  
-
-$(".slidingDiv").hide();
-
-$(".show_hide").show(); 
-
-$('.show_hide').click(function(){
-
-$(".slidingDiv").slideToggle();
-
-});
-
-
-
-});
-
-</script>
-<!-- FOOTER CLOSE -->
-
-
-
-
-
-
-
-<!-- HEADER -->
-
-<!-- HEADER -->
-
-
-
-<!--Start of Zendesk Chat Script-->
-
-<script type="text/javascript">
-
-window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-
-d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-
-_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
-
-$.src="https://v2.zopim.com/?4agNmUgtb0ez1lvKwTt3sMNI22S7N3ZZ";z.t=+new Date;$.
-
-type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
-
-</script>
-
-<!--End of Zendesk Chat Script-->
-
-
-
-
-
-<div id="header">
+  <div id="header">
 
     <div id="logo">
 
-    	<a href="index.html"><img src="images/shalimar-logo.png" /></a>
+      <a href="index.html"><img src="./PicsArt_11-11-01.32.10_125x60.png" /></a>
 
     </div>
 
-    
-
-    <div id="head_links">
-
-    	<!--<span class="text_call">Call : 1800-597-4658</span>-->
-
-        <a class="phone_square" href="tel:1800-597-4658"><i class="fa fa-phone-square"></i></a>
-
-    	<!--<a  href="javascript:void(0)" class="show_hide">Property Finder</a> <span>|</span>-->
-
-        <a href="blog.html">Blog</a> <span>|</span>
-
-    	<a href="careers.html">Careers</a> <span>|</span>
-
-    	<a href="contact-us.html">Contact Us</a>
-
-    </div>
-
-    
 
     <div id="mobile_menu">
 
-    	<i class="fa fa-bars"> MENU</i>
+      <i class="fa fa-bars"> MENU</i>
 
     </div>
 
     <div id="menu_bar">
 
-    	<div class="main_menu_list">
+      <div class="main_menu_list">
 
-            <a href="index.html">HOME</a> <span>&bull;</span>
-            
-  <div class="dropdown"><a class="drop_about_us" id="about-drop" href="#">ABOUT US <i class="fa fa-angle-down"></i></a> <span>&bull;</span>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="introduction.html">Introduction</a>
+        <a href="index.html">HOME</a>
 
-            <a href="the-brand.html">The Brand</a>
+        <div class="dropdown"><a class="drop_about_us" id="about-drop" href="#">ABOUT US <i
+              class="fa fa-angle-down"></i></a>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="introduction.html">Introduction</a>
+
 
             <a href="vision-and-mission.html">Vision & Mission</a>
 
-            <a href="team.html">Team</a>
-          
-          <!-- <a class="dropdown" href="rera.php">Rera  <i class="fa fa-angle-down"></i></a>-->
- <div class="dropdown1">
+          </div>
+        </div>
 
-  <button class="dropbtn1">RERA   <i class="fa fa-angle-down"></i></button>
+        <div onclick="myFunction()" class="dropdown"><a class="drop_about_us" id="project-drop" href="#">PROJECTS <i
+              class="fa fa-angle-down"></i></a>
+          <div class="dropdown-content" id="projects-id_dropdown">
+            <a href="#">1 BHK House for Rent</a>
 
-  <div class="dropdown-content1">
+            <a href="#">Rooms for Students</a>
 
-       <a href="rera-projects.html">Projects</a>
+            <a href="#">Buy a Property</a>
 
-        <a href="rera-promoter.html">Promoter</a>
+          </div>
+        </div>
+
+
+        <div class="dropdown">
+          <a class="drop_about_us" id="know-drop" href="./contact-us.html">BOOK A CALL BACK</a>
+        </div>
+
+      </div>
+
+
+    </div>
 
   </div>
-</div>
 
-            <a href="awards.html">Awards</a>
+  <!-- HEADER CLOSE -->
 
-            <a href="residential-ongoing-projects.html">Operational Focus </a>
-
-            <!-- <a href="https://www.shalimarcorp.com/csr-policy.php">CSR Policy</a> -->
-            <div class="dropdown1">
-              <button class="dropbtn1">POLICIES<i class="fa fa-angle-down"></i></button>
-              <div class="dropdown-content1">
-                  <a href="csr_policy_new.html">CSR Policy</a>
-                  <a href="nrc_policy.html">NRC Policy</a>
-                  <a href="vigil_mechanism.html">Vigil Mechanism</a>
-              </div>
-            </div>
-
-
-            <a href="other-verticals.html">Other Verticals</a>
-
-            <a href="testimonials.html">Testimonials</a>
-            
-            
-  </div> </div>
-
-<div onclick="myFunction()" class="dropdown"><a class="drop_about_us"  id="project-drop" href="#">PROJECTS <i class="fa fa-angle-down"></i></a> <span>&bull;</span>
-  <div class="dropdown-content" id="projects-id_dropdown">
-    <a href="residential-ongoing-projects.html">Residential</a>
-
-            <a href="commercial-ongoing-projects.html">Commercial</a>
-
-            <a href="completed-projects.html">Completed</a>
-
-            <a href="government-projects.html">Government</a>
-            </div>
-            </div>
-        
-        <div class="dropdown"><a class="drop_about_us " id="media-drop" href="#">MEDIA <i class="fa fa-angle-down"></i></a> <span>&bull;</span>
-  <div class="dropdown-content"  id="media-id_dropdown">
-   <a href="press-coverage.html">Press Coverage</a>
-
-            <a href="news-events.html">News & Events</a>
-            </div>
-            </div>
-        
-  <div class="dropdown"><a class="drop_about_us" id="know-drop" href="#">KNOWLEDGE CENTRE <i class="fa fa-angle-down"></i></a> <span>&bull;</span>
-  <div class="dropdown-content" id="know-id_dropdown">
-   <a href="buyers-guide.html">Buyers Guide</a>
-
-            <a href="home-loans-facts.html">Home Loans Facts</a>
-
-            <a href="tools.html">Tools</a>
-
-            <a href="nri-faqs.html">NRI FAQ’s</a>
-            </div>
-            </div>
-            
-        </div>
-        
-
-<!--
-          <div class="sub_menu sub_menu_rera" style="display:none;">
-
-        	<a class="back_knowledge" href="#"><i class="fa fa-reply"> &nbsp; Back</i></a>
-
-        	<a href="buyers-guide.php">Buyers Guide</a>
-
-      <a href="tax-benefits.php">Tax Benefits</a>
-       <a href="home-loans-facts.php">Home Loans Facts</a>
-
-            <a href="tools.php">Tools</a>
-
-            <a href="nri-faqs.php">NRI FAQ’s</a>
-
-        </div>-->
-
-    </div>
-
-</div>
-
-<!-- HEADER CLOSE -->
-
-
-
-<div class="slidingDiv request-visit" style="display: block;">
-
-<div class="header_banner" style="position:static; background:#f7f6ee; padding:60px 0;">
-
-	<div class="header_box"  style="position:static">
-
-        <div class="header_content project_header" style="margin:0px auto !important; ">
-
-            <h1>Property Finder</h1>
-
-            <hr />
-
-            <p>Find your dream lifespace</p>
-
-            <div class="property_filter">
-
-            	<select>
-
-                	<option>Select Location</option>
-
-                </select>
-
-            	<select>
-
-                	<option>Select Apt. Type</option>
-
-                </select>
-
-            	<select>
-
-                	<option>Select Budget</option>
-
-                </select>
-
-                <input type="submit" name="submit" value="Search" />
-
-            </div>
-
-            <div class="clear"></div>
-
-        </div>
-
-        
-
-    </div>
-
- 
-
-</div>
-
-
-
-</div>
-
-
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-   document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropdown')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-
-
-$(document).ready(function(){
-$("#about-drop").click(function(){
-$("#myDropdown").toggle();
-});
-$("#project-drop").click(function(){
-$("#projects-id_dropdown").toggle();
-});
-$("#media-drop").click(function(){
-$("#media-id_dropdown").toggle();
-});
-$("#know-drop").click(function(){
-$("#know-id_dropdown").toggle();
-});
-});
-</script>
-
-
-
-<!-- HEADER CLOSE -->
-
-
-
-<!--End Header-->
-
-<div class="content_box contact_us_box">
+  <div class="content_box contact_us_box">
 
 
 
@@ -448,79 +105,82 @@ $("#know-id_dropdown").toggle();
 
 
 
-        <h1>Shalimar Corp Limited</h1>
+      <h1>Rudra Real Estate</h1>
 
-    	<p>
+      <p>
 
-        	<strong>Corporate office:</strong>  <br />
+        <strong>Corporate office:</strong> <br />
 
-            11th Floor, Titanium, Shalimar Corporate Park,<br />
+        ,xxxx xxxxx xxxxxxxxx xxxxxxx,<br />
 
-            Vibhuti Khand, Gomti Nagar <br />
+        xxxxxxx xxxxx, xxxxx xxxxx <br />
 
-            Lucknow 226010<br />
+        Delhi , (pin code) <br />
 
-            Tel. : +91 - 522 - 4030444<br />
+        Tel. : +91 - 444 - 444444<br />
 
-            Fax : +91 - 522 - 4030413 <br />
+        Fax : +91 - 444 - 4444444 <br />
 
-            Email : shalimar@shalimar.org<br />
+        Email : xyz@rudra.org<br />
 
-            Website: www.shalimarcorp.com
+        Website: www.xxxxxxxxx.com
 
-        </p>
-
-
-
-        <p>
-
-        	<strong>Registered Office:</strong> <br />
-
-            308, Tulsiani Chambers <br />
-
-            Nariman Point, <br />
-
-            Mumbai - 400021
-
-        </p>
+      </p>
 
 
 
-        <div class="clear"></div>
+      <p>
+
+        <strong>Registered Office:</strong> <br />
+
+        444, hhhhhhhh hhhhhh <br />
+
+        connaught place, <br />
+
+        Delhi - 444444
+
+      </p>
+
+
+
+      <div class="clear"></div>
 
     </div>
 
     <div class="right_50">
 
-    	<h1>Enquiry Centre</h1>
-         <form method='post' >
+      <h1>Enquiry Centre</h1>
+      <form class="contact-form" method="POST">
         <div class="row">
 
-        	<input type="text"  name="clientname" id="clientname"   data-validation="required" data-validation-error-msg="" placeholder="Name*">
+          <input type="text" name="clientname" id="clientname" data-validation="required" data-validation-error-msg=""
+            placeholder="Name*" />
 
-        	<input type="text" id="occupation"   name="occupation"data-validation="required"  data-validation-error-msg="" placeholder="Occupation*">
+          <input type="text" id="occupation" name="occupation" data-validation="required" data-validation-error-msg=""
+            placeholder="Occupation*" />
 
-        	<input type="text" name="address" id="address" data-validation="required" data-validation-error-msg=""  placeholder="Address*">
+          <input type="text" name="address" id="address" data-validation="required" data-validation-error-msg=""
+            placeholder="Address*" />
 
         </div>
 
         <div class="row">
 
-        	<select name="country" id="country" data-validation="required" >
+          <select name="country" id="country" data-validation="required">
 
-            	<option value="">Select Country</option>
+            <option value="">Required Place</option>
 
-            	<option value="India">India</option>
+            <option value="India">1BHK / 2BHK</option>
 
-            	<option value="USA">USA</option>
+            <option value="USA">Room for Student</option>
 
-            	<option value="Australia">Australia</option>
+            <option value="Australia">Buy a Property</option>
 
-            </select>
+          </select>
 
-        	<input type="number" id="number"   name="number"  placeholder="Number*" data-validation="required" >
+          <input type="number" id="number" name="number" placeholder="Mobile Number*" data-validation="required">
 
-        	<input type="email" id="email"   name="email" placeholder="E-mail*" data-validation="required" >
+          <input type="email" id="email" name="email" placeholder="E-mail*" data-validation="required">
 
         </div>
 
@@ -528,160 +188,73 @@ $("#know-id_dropdown").toggle();
 
         <div class="clear">&nbsp;</div>
 
-        <h1>Requirement</h1>
+        <h1>Please Write a detailed Query</h1>
 
 
 
         <div class="row">
 
-        	<div class="divide_row_left">
-
-                <select name="requirement" id="requirement" onchange="changerequire()" data-validation="required">
-                <option value="">Select Purpose</option>
-                <option value="INVESTMENT">INVESTMENT</option>
-                <option value="COMMERCIAL">COMMERCIAL</option>
-                <option value="END USE">END USE</option>
-
-                </select>
-
-                <select name="investmentspace" id="investmentspace" style="display:none;" >
-                 <option value="">Space Required</option>
-                 <option value="2Bhk">2Bhk</option>
-                 <option value="3Bhk">3Bhk</option>
-                 <option value="4Bhk">4Bhk</option>
-                 <option value="Villa / Row houses">Villa / Row houses</option>
-                 <option value="Pent House">Pent House</option>
-                 <option value="Bungalow">Bungalow</option>
-                 <option value="Plots">Plots</option>
-                 </select>
-
-                    <select name="commercialspace" id="commercialspace" style="display:none;">
-                    <option value="">Space Required</option>
-                    <option value="Prelease">Prelease</option>
-                    <option value="Postlease">Postlease</option>
-                    <option value="Rent">Rent</option>
-                    <option value="Space">Space</option>
-                    <option value="Shop">Shop</option>
-                    <option value="Floor">Floor</option>
-                    </select>
-
-                    <!-- <script language="JavaScript" type="text/javascript">getCaptcha('captch_code');</script> -->
-
-            </div>
-
-            <div class="divide_row_right">
-        		    <textarea name="query" rows="3" id="query" placeholder="Please Specify Your Query" data-validation="required"></textarea>
-              </div>
-            <div class="divide_row_right">
-                            <img src="captchad62f.jpg?value=491450" style="float:left;" />
-              <input type="hidden" name="cap" value="491450" />
-              <input type="text" data-validation="confirmation" placeholder="" data-validation-confirm="cap" data-validation-error-msg="Captcha is not verified."  style="width:80px; padding:6px 15px; font-size:16px; float:left; margin:0px 10px 0px 10px; " />
-
-              <!-- <input data-validation="recaptcha" data-validation-recaptcha-sitekey="6LcCWnsUAAAAAEugMoa3NQDugOmnv7EUbzqkqspw"> -->
-
-            </div>
-        </div>
-        <div class="row">
-
-        </div>
-        <div class="row">
-        	<input type="submit" name="submit" id="submit"  value="SUBMIT"  >
+          <div class="divide_row_right">
+            <textarea name="query" rows="3" id="query" placeholder="Please Specify Your Query"
+              data-validation="required"></textarea>
           </div>
-       </form>
 
-           </div>
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="row">
+          <input type="submit" name="submit" id="submit" value="SUBMIT">
+
+          <button type="submit">SUBMIT</button>
+
+        </div>
+      </form>
+
+    </div>
 
     <div class="clear"></div>
 
-<div id="map"></div>
+  </div>
 
-</div>
+  <script>
+
+    document.querySelector('.contact-form').addEventListener('submit', submitForm);
+
+    function submitForm(e) {
+
+      e.preventDefault();
+
+      var name = document.querySelector('#clientname').value;
+      var occ = document.querySelector('#occupation').value;
+      var add = document.querySelector('#address').value;
+      var e = document.querySelector('#country');
+      var selected = e.options[e.selectedIndex].text;
+      var num = document.querySelector('#number').value;
+      var emailadd = document.querySelector('#email').value;
+      var msg = document.querySelector('#query').value;
+      console.log(name);
+
+      Email.send({
+        Host: "smtp.gmail.com",
+        Username: "suryansh.cisce@gmail.com",
+        Password: "irhmbvqcamdbmykd",
+        To: "suryansh.cisce@gmail.com",
+        From: "suryansh.cisce@gmail.com",
+        Subject: `${name} has a query regarding ${selected}`,
+        Body: `Name : ${name} <br/> Email ID : ${emailadd} <br/> Requirement : ${selected} <br/> Number : ${num} <br/> Detailed Query : ${msg}`
+      })
+        .then((message) => {
+          window.location.href = "./thankyou.html";
+        });
+    }
+
+    // function redirect() {
+    //   window.location.href = "./thankyou.html";
+    // }
+
+  </script>
 
 </body>
 
-<script>
-
-$(document).ready(function(){
-  $.validate({
-    modules : 'location, date, security, file',
-  });
-});
-
-</script>
-
-
-<script>
-
-      // This example displays a marker at the center of Australia.
-
-      // When the user clicks the marker, an info window opens.
-
-
-
-      function initMap() {
-
-        var svexim = {lat: 26.867049, lng: 81.009051};
-
-        var map = new google.maps.Map(document.getElementById('map'), {
-
-          zoom: 16,
-
-          center: svexim
-
-        });
-
-
-
-        var contentString = '<div id="content">'+
-
-            '<div id="siteNotice">'+
-
-            '</div>'+
-
-            '<h3>Shalimar Plaza</h3>'+
-
-            '<div id="bodyContent">'+
-
-            '<p class="siteNotice">TITANIUM, SHALIMAR CORPORATE PARK,<br/> Vijaipur Colony, Vibhuti Khand, Gomti Nagar,<br/> Lucknow, Uttar Pradesh 226010</p>'+
-
-            '</div>'+
-
-            '</div>';
-
-
-
-        var infowindow = new google.maps.InfoWindow({
-
-          content: contentString
-
-        });
-
-
-
-        var marker = new google.maps.Marker({
-
-          position: svexim,
-
-          map: map,
-
-          title: 'Sri Venkateshwar Exports & Imports'
-
-        });
-
-        marker.addListener('click', function() {
-
-          infowindow.open(map, marker);
-
-        });
-
-      }
-
-    </script>
-
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDc25EdT9qCEvDSX89nBi9X2JurvX3ACmo&amp;callback=initMap"></script>
-
-
-
-
-<!-- Mirrored from www.shalimarcorp.com/contact-us.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Nov 2020 08:42:21 GMT -->
 </html>
